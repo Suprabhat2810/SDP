@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 ps = PorterStemmer()
-tfidf = pickle.load(open("C:/Users/supra/Untitled Folder/vectorizer.pkl",'rb'))
-model = pickle.load(open("C:/Users/supra/Untitled Folder/model.pkl",'rb'))
+tfidf = pickle.load(open("C:/Users/supra/SDP/vectorizer.pkl",'rb'))
+model = pickle.load(open("C:/Users/supra/SDP/model.pkl",'rb'))
 
 
 def transform_text(text):
